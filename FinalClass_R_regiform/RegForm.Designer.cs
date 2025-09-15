@@ -42,6 +42,7 @@
             this.chkJava = new System.Windows.Forms.CheckBox();
             this.chkCsharp = new System.Windows.Forms.CheckBox();
             this.chkCplus = new System.Windows.Forms.CheckBox();
+            this.btnSignUp = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -185,11 +186,21 @@
             this.chkCplus.Text = "C++";
             this.chkCplus.UseVisualStyleBackColor = true;
             // 
+            // btnSignUp
+            // 
+            this.btnSignUp.Location = new System.Drawing.Point(273, 317);
+            this.btnSignUp.Name = "btnSignUp";
+            this.btnSignUp.Size = new System.Drawing.Size(168, 38);
+            this.btnSignUp.TabIndex = 14;
+            this.btnSignUp.Text = "Sign Up";
+            this.btnSignUp.UseVisualStyleBackColor = true;
+            // 
             // RegForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.chkCplus);
             this.Controls.Add(this.chkCsharp);
             this.Controls.Add(this.chkJava);
@@ -229,5 +240,6 @@
         private System.Windows.Forms.CheckBox chkJava;
         private System.Windows.Forms.CheckBox chkCsharp;
         private System.Windows.Forms.CheckBox chkCplus;
+        private System.Windows.Forms.Button btnSignUp;
     }
 }
